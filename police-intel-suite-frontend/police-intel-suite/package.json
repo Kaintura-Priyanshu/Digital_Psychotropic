@@ -1,0 +1,35 @@
+{
+  "name": "police-intel-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tactical Command Console — Law Enforcement Intelligence Suite frontend (dashboard shell, mock data).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "cytoscape": "3.29.2",
+    "cytoscape-cola": "2.5.1",
+    "leaflet": "1.9.4",
+    "leaflet.heat": "0.2.0",
+    "react-leaflet": "4.2.1",
+    "lucide-react": "0.383.0",
+    "clsx": "2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.9",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@types/leaflet": "1.9.12",
+    "@types/cytoscape": "3.19.16",
+    "typescript": "5.5.3",
+    "tailwindcss": "3.4.4",
+    "postcss": "8.4.39",
+    "autoprefixer": "10.4.19"
+  }
+}
